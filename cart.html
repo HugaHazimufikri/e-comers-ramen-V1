@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ramen Euphoria</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="/aset/img/logo.png" alt="logo" class="logo-photo" align="center"> 
+            <h2>Ramen Euphoria</h2>
+        </div>
+        <nav class="nav" id="nav">
+            <ul class="nav-link">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" >Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portofolio">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html" class="cart active"><img src="aset/icon/2638312_bag_buy_cart_e-commerce_marketing_icon.svg"></a>
+
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+    </header>
+    <section class="hero-menu" id="home">
+            <h1>#YourCart</h1>
+            <p>save more coupons & up to 70% off!</p>
+    </section>
+    
+    <section class="section-p1" id="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Hapus</td>
+                    <td>Gambar</td>
+                    <td>Product</td>
+                    <td>Harga</td>
+                    <td>Kuantitas</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <td><img src="aset/icon/lock-icon-fill.svg" class="remove"></td> <!--remove button-->
+                <td><img src="aset/img/easymiso.jpg" alt="" class="product-img"></td> <!--gambar produk-->
+                <td>Easy Miso</td> <!--Nama produk-->
+                <td>Rp 50,000</td> <!--Harga Produk-->
+                <td><input type="number" value="1"></td> <!--kuntitas produk-->
+                <td>Rp 50,000</td> <!--Total harga (harga*kuantitas)-->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="subtotal" class="section-p1">
+        <div class="subtotal-table">
+            <h3>Total Harga</h3>
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>Rp 50,000</td> <!--jumlah semua total harga-->
+            </tr>
+            <tr>
+                <td>Ongkir</td>
+                <td>Free</td> <!--shipping-->
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>Rp 50,000</strong></td> <!--jumlah semua total harga + shipping -->
+            </tr>
+        </table>
+        <button class="checkout-btn">Lanjutkan ke Pembayaran</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Makanan Ramen</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
